@@ -1,0 +1,16 @@
+.recipe-card {
+    border-radius: 5px;
+}
+
+.recipe-badge {
+    padding: 10px;
+    color: greenyellow
+}
+
+.recipe-title {
+    font-weight: 600;
+}
+
+.recipe-description {
+    font-size: 1.1rem;
+}
