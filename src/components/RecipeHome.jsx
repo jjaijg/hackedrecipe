@@ -6,7 +6,7 @@ import './RecipeHome.css'
 import RecipeCard from './RecipeCard';
 
 const breakpointColumnsObj = {
-	default: 4,
+	default: 3,
 	1100: 3,
 	700: 2,
 	500: 1
@@ -14,7 +14,7 @@ const breakpointColumnsObj = {
 
 const RecipeHome = ({ recipes }) => {
 	return (
-		<div>
+		<div className="recipe-home">
 			<Masonry
 				breakpointCols={breakpointColumnsObj}
 				className="recipe-grid"

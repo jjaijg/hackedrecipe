@@ -22,7 +22,7 @@ function App() {
 	}, [])
 
 	return (
-		<div >
+		<div className="hackedrecipe">
 			<RecipeHome recipes={recipes} />
 		</div>
 	);
